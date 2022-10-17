@@ -289,41 +289,39 @@ body {
   line-height: 1.19;
   color: var(--context-color);
  }
-.team__icons {
-display: flex;
-gap: 0 10px;
-justify-content: center;
 
+.social__icons {
+  display: flex;
+  gap: 0 10px;
+  justify-content: center;
 }
-.team__icon{
-  width: 44px;
+.tumb-social {
   height: 44px;
   border-radius: 50%;
 }
-.team__icon:hover,
-.footer__icon:hover {
+.tumb-social:hover {
   background-color: var(--chromatic-usual);
 }
-
 .icon__team {
-  cursor: pointer;
   fill: var(--white-border-icon);
+}
+.icon__team:hover {
+  fill: var(--white-acsent);
 }
 .icon-social {
   padding: 12px;
   width: 44px;
   height: 44px;
 }
-.icon__team:hover {
-  fill: var(--white-acsent);
-}
-.footer__icon {
-  height: 44px;
-  border-radius: 50%;
+
+.footer__icon { 
   background-color:rgba(255, 255, 255, 0.1);
 }
-.icon__footer {
+.icon-social__footer {
   fill: var(--white-acsent);
+}
+.footer-social {
+  margin-left: 30px;
 }
  /* --------- customers ----------- */
 .customers__title {
@@ -395,9 +393,7 @@ justify-content: center;
   line-height: 1.71;
   color: var(--white-сontext);
 }  
-.footer-social {
-  margin-left: 30px;
-}
+
 .footer__subtitle {
   margin: 10px 0 20px;
   font-size: 14px;
