@@ -68,6 +68,10 @@ body {
   margin: 0 auto;
   padding: 0px 15px;
 }
+.title {
+  text-align: center;
+}
+
 /* ---- Хедер -----*/
 .header {
   border-bottom: 1px solid #ECECEC;
@@ -165,7 +169,7 @@ body {
 .hero__title { 
   width: 696px;
   margin: 0 auto 30px;
-  text-align: center;
+  /* text-align: center; */
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -207,12 +211,6 @@ body {
   color: var(--context-color);
 }
 
-.activity__title {
-  /* font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17; */
-
-}
 .features__items {
   list-style: none;
   display: flex;
@@ -243,10 +241,6 @@ body {
 /* ------------ activity ----------- */
 .activity {
 }
-.activity__title,
-.team__title {
-  text-align: center;
-}
 .activity__items {
   display: flex;
   flex-wrap: wrap;
@@ -263,9 +257,7 @@ body {
  .team {
   background: var(--white-background);
  }
- .team__title {
 
- }
  .team__items{
   list-style: none;
   display: flex;
@@ -317,7 +309,6 @@ body {
   background-color: var(--chromatic-hover);
 }
 .icon-social__footer:hover {
-
   background-color: var(--chromatic-hover);
 }
 .icon-social {
@@ -342,30 +333,20 @@ body {
   color: var(--white-acsent);
 }
  /* --------- customers ----------- */
-.customers__title {
-  text-align: center;
-}
 .customers__items{
   display: flex;
   list-style: none;
   gap: 0px 30px;
   justify-content: space-between;
-
 }
 .customers__item {
-  /* display: flex; 
-
-   align-items:center;
-  justify-content: center; */
   width: 170px;
   height: 92px;
-  /*  */
 }
 
 .customers__item:hover {
   border-color: var(--chromatic-usual);
 }
-
 
 .customers__link{
   display: flex; 
@@ -375,11 +356,6 @@ body {
   height: 100%;
   border: 1px solid var(--white-border-icon);
   border-radius: 4px;
-  /* cursor: pointer; */
-  /* height: 92px; */
-  /* padding: 16px 32px; */
-  /* fill: var(--white-border-icon); */
-
   color: var(--white-border-icon);
 }
 .customers__link:hover,
