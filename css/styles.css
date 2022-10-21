@@ -11,6 +11,24 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+/* ------------ reset ------------ */
+ul {
+  padding: 0;
+  margin: 0;
+}
+h3, p {
+  margin: 0;
+}
+.link,
+.logo {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 :root{
   --main-ff: "Roboto", san-serif;
   --logo-ff: "Raleway", san-serif;
@@ -32,20 +50,6 @@
   --chromatic-hover: #188CE8;  
 }
 
-ul {
-  padding: 0;
-  margin: 0;
-}
-h2{
-  margin: 0 auto 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-}
-h3, p {
-  margin: 0;
-}
-
 body {
   font-family: "Roboto", san-serif;
   font-size: 14px;
@@ -53,20 +57,23 @@ body {
   background-color: var(--white-acsent);
   letter-spacing: 0.03em;
 }
-.link,
-.logo {
-  text-decoration: none;
+h2{
+  margin: 0 auto 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
 }
 
-.section {
-  padding: 94px 0px;
-}
 
+/* ---- Utils ----- */
 .container {
   /* outline: 1px solid tomato; */
   width: 1200px;
   margin: 0 auto;
   padding: 0px 15px;
+}
+.section {
+  padding: 94px 0px;
 }
 .title {
   text-align: center;
@@ -124,8 +131,6 @@ body {
 .header__item:not(:last-child) {
   margin-right: 50px;
 }
-/* loklerr */
-
 
 .items,
 .filters,
@@ -460,11 +465,7 @@ body {
   display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.galery__img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+
 .galery__card-subscribe{
   padding: 20px 24px;
 }
